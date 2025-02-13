@@ -363,7 +363,7 @@ pre{
 }
 
 .input{
-    height: 200px;
+    height: 100px;
     font-size: x-large;
     background: #023539;
     border-radius: 10px;
@@ -376,6 +376,7 @@ pre{
     margin-left: 200px;
     background: #01edfe;
     color: black;
+    border-radius: 50px;
     
 }
 
@@ -496,7 +497,7 @@ pre{
             width: 0;
         }
         to{
-            width: 223px;
+            width: 220px;
         }
     }
 
@@ -514,11 +515,11 @@ pre{
         justify-content: space-around !important;
     }
     .resumebutton{
-        margin-left: 100px !important;
+        margin-left: 80px !important;
     }
 
     .h1-about{
-        margin-left: 60px !important;
+        margin-left: 40px !important;
         width: 50vw !important;
     }
 
@@ -530,8 +531,8 @@ pre{
         margin-top: 20px !important;
         margin-left: 0px;
         position: absolute;
-        left: 80px;
-        height: 300px !important;
+        left: 50px;
+        height: 310px !important;
         width: 300px !important;
     }
 
@@ -556,7 +557,6 @@ pre{
         left: -170px !important;
         display: flex !important;
         padding-left: 0px !important;
-        /* flex-wrap: wrap !important; */
         width: 100vw !important;
         display: flex !important;
         flex-wrap: wrap !important;
@@ -592,7 +592,7 @@ pre{
     }
 
     .h1-contact{
-        margin-left: 50px !important;  
+        margin-left: 40px !important;  
         padding-left: 0px !important;      
     }
 
@@ -616,7 +616,9 @@ pre{
         position: relative;
         right: 500px !important;
         top: 520px;
-        height: 150px !important;
+        /* left: 10px; */
+        padding-left: 150px !important;
+        height: 100px !important;
         font-size: 1rem !important;
         text-align: center !important;
     }
